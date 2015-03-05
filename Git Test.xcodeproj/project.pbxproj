@@ -14,6 +14,7 @@
 		68BF17D31AA81D040063C478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BF17D21AA81D040063C478 /* Images.xcassets */; };
 		68BF17D61AA81D040063C478 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68BF17D41AA81D040063C478 /* LaunchScreen.xib */; };
 		68BF17E21AA81D040063C478 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF17E11AA81D040063C478 /* Git_TestTests.m */; };
+		68BF17ED1AA82F6F0063C478 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF17EC1AA82F6F0063C478 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		68BF17DB1AA81D040063C478 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BF17E01AA81D040063C478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68BF17E11AA81D040063C478 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		68BF17EB1AA82F6F0063C478 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		68BF17EC1AA82F6F0063C478 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		68BF17B91AA81D040063C478 = {
 			isa = PBXGroup;
 			children = (
+				68BF17EB1AA82F6F0063C478 /* CCTest.h */,
+				68BF17EC1AA82F6F0063C478 /* CCTest.m */,
 				68BF17C41AA81D040063C478 /* Git Test */,
 				68BF17DE1AA81D040063C478 /* Git TestTests */,
 				68BF17C31AA81D040063C478 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68BF17CE1AA81D040063C478 /* ViewController.m in Sources */,
+				68BF17ED1AA82F6F0063C478 /* CCTest.m in Sources */,
 				68BF17CB1AA81D040063C478 /* AppDelegate.m in Sources */,
 				68BF17C81AA81D040063C478 /* main.m in Sources */,
 			);
